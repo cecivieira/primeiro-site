@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Mukta:300,400&display=swap');
+
+:root {
+    --color-menu: #A98675;
+    --color-title-header: #F36735;
+    --color-title-project: #FFFDFD;
+    --color-title-contact: #F03F6A;
+    --color-title-detail-card: #79D2CC;
+    --color-p: #444444;
+}
+
+header {
+    padding: 50px 100px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.logo {
+    object-fit: cover;
+    width: 50px;
+    margin: 20px;
+}
+
+.menu-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu-item {
+    margin: 30px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;    
+}
+
+.menu-link {
+    color: var(--color-menu);
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: var(--color-title-header);
+}
+
