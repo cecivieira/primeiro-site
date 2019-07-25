@@ -16,6 +16,8 @@
     --font-p: 'Mukta', sans-serif;
 }
 
+/* HEADER */
+
 header {
     margin: 20px 80px 50px;
 }
@@ -85,4 +87,18 @@ header {
     object-fit: cover;
     width: 400px;
     margin: 0px 0px 0px 40px;
+}
+
+/* PROJECTS */
+
+.projects {
+    padding: 50px 80px;
+    background: var(--color-title-detail-card);
+}
+
+.project-title {
+    font-family: var(--font-title);
+    font-size: var(--size-h2);
+    color: var(--color-title-project);
+    text-align: center;
 }
