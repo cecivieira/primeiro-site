@@ -9,9 +9,9 @@
     --color-p: #444444;
     --size-h1: 34px;
     --size-h2: 26px;
-    --size-h3: 25px;
+    --size-h3: 17px;
     --size-p: 17px;
-    --size-p-small: 9px;
+    --size-p-small: 13px;
     --font-title: 'Montserrat', sans-serif;
     --font-p: 'Mukta', sans-serif;
 }
@@ -113,7 +113,7 @@ header {
 
 .projects-img {
     object-fit: cover;
-    width: 180px;
+    width: 190px;
     margin: 30px;
 }
 
@@ -121,22 +121,36 @@ header {
     background: var(--color-title-project);
     margin: 30px 80px;
     padding: 20px;
-    width: 169px;
-    height: 266px;
+    width: 199px;
+    height: 326px;
     border-radius: 5%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     flex-direction: column;
     text-align: center;
 }
 
-.img-card-link {
-
+.img-card-link:hover {
+    
 }
 
 .card-img {
     object-fit: cover;
-    width: 72px;
-    margin: 15px;
+    width: 65px;
+    margin: 5px;
     border-radius: 50%;
-    border-color: var(--color-title-detail-card) solid;
+    border: 2px solid var(--color-title-detail-card);
+}
+
+.card-title {
+    font-family: var(--font-title);
+    font-size: var(--size-h3);
+    color: var(--color-title-detail-card);
+}
+
+.card-text {
+    font-family: var(--font-p);
+    font-size: var(--size-p-small);
+    color: var(--color-p);
+    text-align: justify;
+    margin: 0px 0px 5px;
 }
