@@ -6,6 +6,7 @@
     --color-title-project: #FFFDFD;
     --color-title-contact: #F03F6A;
     --color-title-detail-card: #79D2CC;
+    --color-footer: #444444;
     --color-p: #444444;
     --size-h1: 34px;
     --size-h2: 26px;
@@ -114,7 +115,7 @@ header {
 
 .projects-img {
     object-fit: cover;
-    width: 190px;
+    width: 180px;
     margin: 30px;
 }
 
@@ -174,7 +175,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 30px 0px;
+    margin: 5px 0px;
 }
 
 .contact-text-column {
@@ -205,5 +206,21 @@ header {
 .contact-img {
     object-fit: cover;
     width: 230px;
-    margin: 30px 0px;
+    margin: 5px 0px;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--color-footer);
+    padding: 20px 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img-footer{
+    object-fit: cover;    
+    height: 25px;
+    margin: 0px 20px;
 }
