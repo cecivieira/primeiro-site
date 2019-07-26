@@ -56,6 +56,7 @@ header {
 
 .menu-link:hover {
     color: var(--color-title-header);
+    font-weight: 800;
 }
 
 .middle-header {
@@ -153,4 +154,56 @@ header {
     color: var(--color-p);
     text-align: justify;
     margin: 0px 0px 5px;
+}
+
+/* CONTACT */
+
+.contact {
+    padding: 50px 80px;
+}
+
+.contact-title {
+    font-family: var(--font-title);
+    font-size: var(--size-h2);
+    color: var(--color-title-contact);
+    text-align: center;
+}
+
+.row-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.contact-text-column {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+}
+
+.contact-text {
+    font-family: var(--font-p);
+    font-size: var(--size-p);
+    color: var(--color-p);
+}
+
+.mail {
+    font-family: var(--font-p);
+    font-size: var(--size-p);
+    color: var(--color-p);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mail:hover {
+    color: var(--color-title-contact);
+    font-weight: 800;    
+}
+
+.contact-img {
+    object-fit: cover;
+    width: 230px;
+    margin: 30px 0px;
 }
